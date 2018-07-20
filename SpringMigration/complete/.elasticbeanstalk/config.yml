@@ -1,0 +1,22 @@
+branch-defaults:
+  default:
+    environment: spring-stg1
+    group_suffix: null
+deploy:
+  artifact: target/SpringWebApp.jar
+environment-defaults:
+  profile-stg:
+    branch: null
+    repository: null
+global:
+  application_name: springservice
+  default_ec2_keyname: null
+  default_platform: Java 8
+  default_region: us-east-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: null
+  workspace_type: Application

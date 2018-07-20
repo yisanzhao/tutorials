@@ -17,6 +17,7 @@
 
 	<context:annotation-config />
 	<mvc:annotation-driven/>
+
 	<mvc:default-servlet-handler/>
 
 	<bean id="accountBean" class=" com.vmware.example.model.Account">
